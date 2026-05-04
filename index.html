@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script> 
+</head>
+
+<body >
+    <main class="calculator">
+        <header class="calc-header">
+            <h1 class="logo">calc</h1>
+            <div class="theme-switcher">
+                <span class="theme-label">THEME</span>
+                <div class="toggle-container">
+                    <div class="toggle-numbers">
+                        <span>1</span><span>2</span><span>3</span>
+                    </div>
+                    <div class="toggle-inputs">
+                        <input type="radio" name="theme" id="theme1" checked class="theme-toogle">
+                        <input type="radio" name="theme" id="theme2" class="theme-toogle">
+                        <input type="radio" name="theme" id="theme3" class="theme-toogle">
+                        <div class="toggle-slider"></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="calc-screen">
+            <output id="answer">0</output>
+        </div>
+
+        <section class="calc-keypad">
+            <button class="key number-key">7</button>
+            <button class="key number-key">8</button>
+            <button class="key number-key">9</button>
+            <button class="key del-btn">DEL</button>
+            <button class="key number-key">4</button>
+            <button class="key number-key">5</button>
+            <button class="key number-key">6</button>
+            <button class="key operator-key">+</button>
+            <button class="key number-key">1</button>
+            <button class="key number-key">2</button>
+            <button class="key number-key">3</button>
+            <button class="key operator-key">-</button>
+            <button class="key number-key">.</button>
+            <button class="key number-key">0</button>
+            <button class="key operator-key">/</button>
+            <button class="key operator-key">x</button>
+            <button class="key reset-btn span-two">RESET</button>
+            <button class="key equal-btn span-two">=</button>
+        </section>
+    </main>
+</body>
+</html>
