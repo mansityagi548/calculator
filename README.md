@@ -3,10 +3,10 @@ Calc — Multi-Theme Calculator
 A clean, responsive calculator built with vanilla HTML, CSS, and JavaScript. Supports 3 themes with persistent storage and full keyboard support.
 
 📸 Preview : 
-![calc landing page](./preview/preview.png);
+![calc landing page](./preview/preview.png)
 
 🔗 Live Demo
-[View Live](# )
+[View Live](# https://mansityagi548.github.io/calculator/)
 
 
 How to Run : 
